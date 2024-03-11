@@ -1,13 +1,13 @@
-name: Hellowworld workflow
+name: Hello world workflow
 
 on: 
-push:
+  push:
 		branches:
 			- main
-		pull-request:
-			branches:
+	pull-request:
+		branches:
 				- main
-		workflow_dispatch:
+	workflow_dispatch:
 
 jobs:
 	hello:
