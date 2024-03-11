@@ -1,7 +1,7 @@
 name: Hellowworld workflow
 
 on: 
-	push:
+push:
 		branches:
 			- main
 		pull-request:
